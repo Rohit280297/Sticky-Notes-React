@@ -1,0 +1,48 @@
+.Task{
+    display: block;
+    width: 100%;
+    height:15%;
+    overflow: hidden;
+    border:1px solid darkmagenta;
+    margin:0px;
+    background-color: #eee;
+    opacity: 0.9;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    box-sizing: border-box;
+    z-index: 2000;
+}
+
+.Task p{
+    width:80%;
+    overflow: hidden;
+    text-align: center;
+    top:10px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.Delete{
+    visibility: hidden;
+    border: none;
+    color:black;
+    background-color: #eee;
+    position: relative;
+    float: right;
+    left: 5px;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    top:5px;
+}
+
+.Task:hover{
+    opacity: 0.9;
+}
+
+.Task:hover .Delete{
+   visibility: initial;
+   cursor: pointer;
+}
+

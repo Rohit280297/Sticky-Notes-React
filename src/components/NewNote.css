@@ -1,0 +1,9 @@
+.NewNote{
+        height:600px;
+        width:1200px;
+        z-index:2;
+        background-color: #fff;
+        margin:auto;
+        
+}
+

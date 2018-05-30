@@ -1,0 +1,47 @@
+.Modal {
+    height: 600px;
+    width:800px;
+    margin:auto;
+    box-shadow: 2px 2px 5px #eee;
+    border: 2px solid #ccc;
+    background-color: #eee;
+    z-index: 200;
+    position: fixed;
+    top:25%;
+    left:25%;
+    border-radius: 10px;
+    
+}
+
+
+.ModalOpen{
+    display:block;
+}
+
+.ModalClose{
+    display:none;
+}
+
+.Text{
+    display: block;
+    width:90%;
+    height:70%;
+    margin:  60px auto 40px auto;
+    top:10%;
+    border-radius: 10px;
+    border: 2px solid magenta;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Save{
+    background-color:#eee;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid magenta;
+    color: magenta;
+    margin-bottom: 35px;
+    outline: none;
+}
